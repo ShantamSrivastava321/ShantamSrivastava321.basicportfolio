@@ -1,0 +1,52 @@
+img {
+	width: 150px;
+	height: 150px;
+	transition: all 0.06s ;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img:hover  {
+	transform: scale(1.1);
+}
+
+
+body{
+	 width: 100%;
+    height: 100%;
+    background-image: url('lo.png');
+    background-size: 250%;
+
+}
+
+header{
+font-size: 35px;
+text-align: center;
+font-family: 'Pacifico', cursive;
+}
+
+h1 {
+font-size: 40px;
+text-align: center;
+font-family: 'Oswald', sans-serif;
+}
+
+
+p , ol {
+font-size: 28px;
+text-align: center;
+font-family: 'Titillium Web', sans-serif;
+}
+
+ol {
+	font-size: 20px;
+    text-align: center;
+    font-family: 'Titillium Web', sans-serif;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+li {
+    text-align: center;
+}
